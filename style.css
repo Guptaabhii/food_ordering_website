@@ -28,11 +28,11 @@ body{
     position: fixed;
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 95vw;
     justify-content: space-between;
-    margin-right: 30px;
+    /* margin-right: 30px; */
     padding-right: 20px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     border-bottom-right-radius:25px ;
     box-shadow: 3px 9px 25px 1px rgba(8,7,7,0.41);
 -webkit-box-shadow: 3px 9px 25px 1px rgba(8,7,7,0.41);
@@ -81,6 +81,7 @@ body{
 
 section{
     padding: 30px 10%;
+    
     /* margin-top: 100px; */
 }
 
@@ -91,6 +92,7 @@ section{
     gap: 1.5rem;
     align-items: center;
     min-height: 100vh;
+    /* margin-top: 2rem; */
     /* background-image: url(images/home-bg.jpg) */
 }
 

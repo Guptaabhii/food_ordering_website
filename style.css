@@ -26,6 +26,7 @@ body{
     background-color: white;
     z-index: 100;
     position: fixed;
+    /* margin-bottom: 2rem; */
     display: flex;
     align-items: center;
     width: 95vw;
@@ -168,6 +169,7 @@ section{
 }
 
 .speciality h1{
+    margin-top: 4rem;
     font-size: 3rem;
     color: #262626;
     padding: 1rem;
@@ -248,6 +250,7 @@ section{
 }
 
 .customer_review h1{
+    margin-top: 5.2rem;
     font-size: 3rem;
     color: #262626;
     padding: 1rem;
@@ -305,6 +308,7 @@ section{
 }
 
 .order h1{
+    margin-top: 4rem;
     font-size: 3rem;
     color: #262626;
     padding: 1rem;
@@ -355,6 +359,7 @@ section{
     border: 2px solid black;
     text-transform: capitalize;
     border-radius: 0.8rem;
+    padding-left: 1rem;
 
 }
 
@@ -365,6 +370,7 @@ section{
     margin-top: 2rem;
     text-transform: capitalize;
     border-radius: 0.8rem;
+    padding-left: 1rem;
     
 }
 
@@ -376,6 +382,7 @@ section{
     text-transform: capitalize;
     border-radius: 1rem;
     margin-left: 6rem;
+    padding-left: 1rem;
 }
 
 footer{
@@ -410,6 +417,8 @@ footer ul li a{
 }
 
 .our_menu h1{
+    
+    margin-top: 4rem;
     font-size: 3rem;
     color: #262626;
     padding: 1rem;

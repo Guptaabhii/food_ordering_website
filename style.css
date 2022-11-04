@@ -493,16 +493,18 @@ footer ul li a{
 }
 .special_offers{
     display: flex;
-    background-color: #eab308;
+    /* background-color: #eab308; */
     margin-top: 1.5rem;
     border-radius: 1rem;
     width: 1200px;
     height: 350px;
+    background-image: linear-gradient(to right top, #f87171, #ff825e, #ff9848, #ffb130, #facc15);
 }
 .special_offers img{
+    padding:2rem 0 1rem 0;
      width: 500px;
      height: 300px; 
-     padding-bottom: 1rem;
+     /* padding-bottom: 1rem; */
      
 }
 
@@ -521,8 +523,8 @@ footer ul li a{
     font-size: 4rem;
     text-transform: uppercase;
     margin: 0;
-    padding: 0;
-   
+    padding: 0; 
+    color: #dc2626;
     
 }
 
@@ -530,9 +532,11 @@ footer ul li a{
     font-size: 1.5rem;
     text-transform: capitalize;
 
-    /* margin-bottom: 200px; */
+     /* margin-bottom: 200px; */
     
 }
+
+
 
 #location{
     margin-top: 30px;

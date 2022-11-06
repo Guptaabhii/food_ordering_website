@@ -9,6 +9,7 @@ html{
 
 body{
     font-family: 'Nunito', sans-serif;
+    overflow-x: hidden;
 }
 #preloader{
 
@@ -334,7 +335,7 @@ box-shadow: 6px 6px 11px -4px rgba(0,0,0,0.73);
     flex-basis: 30%;
     width: 500px;
     height: 400px;
-    border-radius: 2rem;
+    border-radius: 1rem;
 }
 
 .customer_details{
@@ -383,38 +384,6 @@ box-shadow: 6px 6px 11px -4px rgba(0,0,0,0.73);
     margin-left: 6rem;
     padding-left: 1rem;
 }
-
-footer{
-    /* background-color: #0c4a6e; */
-    margin-top: 2rem;
-}
-
-.connect{
-    /* justify-content: center; */
-    font-size: 2rem;
-    text-align: center;
-}
-
-footer ul{
-    display: flex;
-     list-style: none;
-    justify-content: center;
-    
-}
-
-footer ul li{
-    
-
-    padding-right: 1.2rem;
-    margin-top: 1rem;
-
-}
-footer ul li a{
-    color: #0c4a6e;
-    font-size: 1.8rem;
-
-}
-
 .our_menu h1{
     
     margin-top: 4rem;
@@ -538,6 +507,7 @@ footer ul li a{
     margin-top: 100px;
     display: flex;
     justify-content: space-around;
+    
 }
 .offer_pic{
     width: 300px;
@@ -586,6 +556,130 @@ box-shadow: 6px 6px 11px -4px rgba(0,0,0,0.73);
     color: #fff;
     border: none;
 }
+
+.subscribe{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 15rem;
+    width: 100vw;
+    height: 300px;
+    background-color: #e7e1f9;
+    border: 1px solid black;
+    border-style: dotted;
+    
+}
+
+.subscribe h1{
+    font-family: 'Dancing Script', cursive;
+    /* font-family: 'Kalam', cursive; */
+    word-spacing: 1rem;
+    font-size: 3.5rem;
+    text-align: center;
+    text-transform: capitalize;
+    color: #064e3b;
+    font-weight: bolder;
+}
+.newsletter h3{
+   text-transform: capitalize;
+   font-size: 1.5rem;
+}
+
+.newsletter input{
+    width: 300px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 1rem;
+    padding-left: 1rem;
+    object-fit: cover;
+    overflow: hidden;
+    border: 1px solid black;
+    
+}
+
+.subscribe_btn{
+    margin-top: 1rem;
+    justify-content: center;
+    padding-left: 1.2rem;
+    padding-top: 0.5rem;
+    color: white;
+    background-color: #1c1917;
+    letter-spacing: 2px;
+    width: 120px;
+    height: 30px;
+    border: 1px solid black;
+    text-transform: capitalize;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+.subscribe_btn:hover{
+    background-color:#b91c1c ;
+}
+
+
+.connect_to_us{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.contact_us h3{
+    font-size: 1.8rem;
+    margin-bottom:0.5rem ;
+}
+
+.contact_us p{
+    font-size: 1rem;
+    font-weight: 600;
+    
+}
+
+.outlets h3{
+    font-size: 1.8rem;
+    margin-bottom:0.5rem ;
+}
+.outlets p{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.social_links h3{
+    font-size: 1.8rem;
+    margin-bottom:0.5rem ;
+}
+
+.social_links ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+
+}
+.social_links ul li{
+    padding-left: 1rem;
+   
+    
+}
+
+.link_fonts{
+   
+    color: #b91c1c;
+    
+}
+
+.end_message{
+    padding-top: 20px;
+    height: 40px;
+    background-color: #e7e1f9;
+   margin:30px 50px 30px 50px;
+   font-size: 1.3rem;
+   font-weight: 700;
+  text-transform: capitalize;
+    text-align: center;
+}
+
 
 
 

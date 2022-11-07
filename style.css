@@ -623,7 +623,7 @@ box-shadow: 6px 6px 11px -4px rgba(0,0,0,0.73);
 
 .newsletter input{
     width: 340px;
-    height: 42px;
+    height: 30px;
     margin-top: 10px;
     padding-top: 8px;
     padding-bottom: 5px;
@@ -709,6 +709,29 @@ box-shadow: 6px 6px 11px -4px rgba(0,0,0,0.73);
 .link_fonts{
     font-size: 2.5rem;
     color:  #ef4444;
+    
+}
+
+.online_order_plateform{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.online_order_plateform h3{
+    font-size: 1.8rem;
+    margin-bottom:0.5rem ;
+}
+
+.zomato_img{
+    width: 80px;
+    height: 80px;
+}
+
+.swiggy_img{
+    width: 120px;
+    height: 120px;
+    mix-blend-mode: multiply;
     
 }
 

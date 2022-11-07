@@ -524,7 +524,7 @@ box-shadow: 6px 6px 11px -4px rgba(0,0,0,0.73);
 
 .location{
     display: flex;
-    margin: 3rem 0 6rem 12vw;
+    margin: 3rem 0 8rem 12vw;
 }
  
 .delivery_boy{
@@ -724,13 +724,13 @@ box-shadow: 6px 6px 11px -4px rgba(0,0,0,0.73);
 }
 
 .zomato_img{
-    width: 80px;
-    height: 80px;
+    width: 60px;
+    height: 60px;
 }
 
 .swiggy_img{
-    width: 120px;
-    height: 120px;
+    width: 80px;
+    height: 80px;
     mix-blend-mode: multiply;
     
 }
